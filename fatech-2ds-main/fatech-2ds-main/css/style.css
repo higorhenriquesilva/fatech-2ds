@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    background-color: #fcfbfb;
+    font-family: 'Noto Sans', sans-serif;
+}
+footer{
+    background-color: #1a1a1a;
+    color: #fff;
+   
+}
+footer p{
+    text-align: center;
+    padding: 50px;
+}
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.logotipo, .itensrodape, .sociais{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+footer .menurodape{
+    background-color: #fcfbfb;
+    color: #1a1a1a;
+}
+footer .itensrodape a, footer .sociais{
+    color: #1a1a1a;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.sociais ul li i{
+    font-size: 40px;
+    color: #1a1a1a;
+}
+.sociais ul li{
+    display: inline-block;
+} 
+.localizacao .endereco, .endereco .mapa{
+     width: 49%;
+     display: inline-block;
+     padding: 40px;
+     text-align: center;
+}
+.endereco h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.endereco p{
+    padding: 20px;
+    line-height: 25px;
+    font-size: 22px;
+}
